@@ -1,0 +1,28 @@
+깃허브 폴더 복사는
+
+깃허브 들어가서
+
+TIL 누르고 주소 복사해서
+
+해당폴더가 생성되길 원하는 곳에서 git bash here 키고 
+
+git clone 치고 붙혀넣기 
+
+ex)git clone https://github.com/psjoon33/TIL.git
+
+
+
+
+1. 집 컴퓨터
+git pull origin master + edit git.md
+
+2. SSAFY 강의장 컴퓨터 +edit git.md
+
+3. github +edit git.md
+
+zzu.li/handouts
+
+
+
+
+

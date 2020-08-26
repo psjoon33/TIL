@@ -214,3 +214,33 @@ book_titles =  ['great', 'expectations', 'the', 'adventures', 'of', 'sherlock', 
 ```
 
 ​	: book_titles 내의 title들을 세고, 이에 대한 딕셔너리를 만든다.
+
+
+
+- Dictionary Comprehension
+
+  : 리스트에서 그러했듯이 딕셔너리에서도 comprehension을 쓸 수 있다.
+
+```python
+dusts = {'서울': 72, '대전': 82, '구미': 29, '광주': 45, '중국': 200}
+```
+
+​	: 이 중, 미세먼지 농도가 80 이상이 값들을 뽑아서 dict로 만들어보자.
+
+```python
+result = {city:dusts[city] for city in dusts if dusts[city] >= 80}
+
+#--> {'대전': 82, '중국': 200}
+```
+
+​	: 이 중, 미세먼지 농도가 80이상은 나쁨, 80미만은 보통으로 하는 value를 가지도록 dict 생성.
+
+```python
+result = {city:'나쁨' if dusts[city]>=80 else '보통' for city in dusts}
+print(result)
+#-->{'서울': '보통', '대전': '나쁨', '구미': '보통', '광주': '보통', '중국': '나쁨'}
+```
+
+​	: 항상 구조를 기억하자!!
+
+​	: new_dict = {key:value1 if 조건식 else value2 for key in original_dict}

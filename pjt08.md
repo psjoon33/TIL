@@ -86,4 +86,6 @@ vue에서 bootstrap을 적용하는 방법
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 ```
 
-위의 것을 복사해서 index.html에서 head에 title태그 밑에다가 붙혀넣기 하면 bootstrap이 적용된다.
+위의 것을 복사해서 index.html에서 head에 title태그 밑에다가 붙혀넣기 하면 bootstrap을 하고
+
+npm install bootstrap을 한 다음에 사용을 하면 바로 가능하다.

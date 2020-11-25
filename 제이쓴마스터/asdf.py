@@ -6,6 +6,7 @@ import random
 
 
 def filmo_count():
+    # global url_maker
     url_maker = URLMaker('a5ef8ead5c3cf54816872baad397f192')
     url = url_maker.get_url()
     # URL 요청
@@ -14,10 +15,11 @@ def filmo_count():
     people_dict = r.json()
     # 주소에서 'peopleListResult'안에 'peopleList'로 접근
     return people_dict
+# filmo_count()
 tmp = filmo_count()
-
-
 print(tmp)
+
+# print(tmp)
 # file_data = []
 # for i in range(len(tmp['genres'])):
 #     file_data.append(tmp['genres'][i]['name'])

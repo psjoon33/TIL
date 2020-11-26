@@ -219,7 +219,7 @@
 		"idx": 9
 	},
 	{
-		"title": "Me Against You : The Movie-Mr. S 's Revenge",
+		"title": "Me contro Te: Il film - La vendetta del Signor S",
 		"original_title": "Me contro Te: Il film - La vendetta del Signor S",
 		"poster_path": "https://image.tmdb.org/t/p/w500/4XzbcAKdX4n3aWfzBjjeAlm68S3.jpg",
 		"id": 640344,
@@ -640,7 +640,7 @@
 		"id": 610461,
 		"adult": false,
 		"backdrop_path": "/ebKa6nCRkKWU3KIuacEkEe6XSQl.jpg",
-		"title": "스무 살, 이혼하고 환상적",
+		"title": "Veinteañera, divorciada y fantástica",
 		"genre_ids": [
 			35
 		],
@@ -681,7 +681,7 @@
 		"id": 652722,
 		"adult": false,
 		"backdrop_path": "/6cqogY7SYppI0ZNchaTKszSkxwH.jpg",
-		"title": "살인자의 품에 안겨",
+		"title": "En brazos de un asesino",
 		"genre_ids": [
 			53,
 			10749
@@ -1035,7 +1035,7 @@
 		"release_date": "2019-10-10",
 		"adult": false,
 		"backdrop_path": "/uargshjTEvHLRPsY4YleINxVUzh.jpg",
-		"title": "지평선에 가까워",
+		"title": "Dem Horizont so nah",
 		"genre_ids": [
 			18,
 			10749
@@ -1266,7 +1266,7 @@
 		"id": 579245,
 		"adult": false,
 		"backdrop_path": "/lbRFWERhmSHpxCdclDunALhRwaY.jpg",
-		"title": "표준을 벗어남",
+		"title": "Hors Normes",
 		"genre_ids": [
 			35,
 			18
@@ -1328,7 +1328,7 @@
 		"original_language": "en",
 		"original_title": "Teen Titans Go! vs. Teen Titans",
 		"poster_path": "https://image.tmdb.org/t/p/w500/jFE4ZeXNIDU6c0PAFhKJ1WlL7Oo.jpg",
-		"title": "Teen Titans Go! vs. 틴 타이탄",
+		"title": "Teen Titans Go! vs. Teen Titans",
 		"video": false,
 		"vote_average": 8,
 		"popularity": 77.513,
@@ -1591,7 +1591,7 @@
 			35,
 			10749
 		],
-		"title": "화성의 내 삶",
+		"title": "Minha Vida em Marte",
 		"original_language": "pt",
 		"original_title": "Minha Vida em Marte",
 		"poster_path": "https://image.tmdb.org/t/p/w500/5jFmp5RmaBAY0LoEYZb4KDp0GZc.jpg",
@@ -2016,7 +2016,7 @@
 		"release_date": "2013-12-25",
 		"adult": false,
 		"backdrop_path": "/eVrscRpAook4jnRYYh11x1fT48Y.jpg",
-		"title": "닥터 후 : 의사의 시간",
+		"title": "Doctor Who: The Time of the Doctor",
 		"genre_ids": [
 			18,
 			878,
@@ -2805,7 +2805,7 @@
 		],
 		"original_title": "つみきのいえ",
 		"original_language": "ja",
-		"title": "작은 벽돌로 쌓은 집",
+		"title": "つみきのいえ",
 		"poster_path": "https://image.tmdb.org/t/p/w500/qdTJkm0suAFwC0QJpn2fvVjEdEu.jpg",
 		"overview": "",
 		"video": false,

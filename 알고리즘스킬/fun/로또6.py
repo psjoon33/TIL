@@ -19,4 +19,4 @@ def lotto(nums):
         res = 'No'
     return res
 
-print(lotto([5, 8, 11, 16, 24, 30]))
+print(lotto([3, 9, 10, 34, 35, 41]))

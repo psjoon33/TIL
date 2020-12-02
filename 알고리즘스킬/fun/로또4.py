@@ -2,11 +2,9 @@
 
 import sys
 sys.stdin = open('로또.txt', 'r')
-
 result = []
 for i in range(40):
     result.append(list(map(int, input().split('\t'))))
-
 def lotto(nums):
     res = 'Yes'
     for x in result:
@@ -14,10 +12,10 @@ def lotto(nums):
         for y in nums:
             if y in x:
                 cnt += 1
-
         if cnt >= 3:
+            print(x)
             res = 'No' + '/ index: ' + str(result.index(x))
             break
     return res
 
-print(lotto([4, 11, 28, 39, 42, 45]))
+print(lotto([3, 9, 10, 34, 35, 41]))

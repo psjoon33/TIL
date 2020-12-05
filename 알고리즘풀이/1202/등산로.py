@@ -17,6 +17,25 @@ for tc in range(1, int(input())+1):
 				highests.append([i, j])
 	print(highests)
 
+	for k in highests:
+		pass
 
 
-	
+
+	dr = [1, 0, 0, -1]
+	dc = [0, 1, -1, 0]
+
+	def detect([x, y]):
+		visited = []
+		stack 
+
+
+
+
+
+
+
+
+
+
+

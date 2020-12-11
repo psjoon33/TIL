@@ -27,4 +27,4 @@ def lotto(nums):
             el += 1
     return rate
 
-print(lotto([3, 15, 20, 22, 24, 41]))
+print(lotto([]))

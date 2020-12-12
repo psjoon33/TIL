@@ -7,6 +7,7 @@ for i in range(5):
 def lotto(nums):
     res = 'Yes'
     check = 0
+    k = []
     for x in nums:
         cnt = 0
         for y in result:
@@ -14,9 +15,10 @@ def lotto(nums):
                 cnt += 1
         if cnt >= 2:
             check += 1
-
+            k.append(x)
     if check >= 2:
         res = 'No'
+        print(k)
     return res
 
-print(lotto([3, 15, 20, 22, 24, 41]))
+print(lotto([6, 13, 14, 24, 28, 33]))

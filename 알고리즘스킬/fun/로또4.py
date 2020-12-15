@@ -1,4 +1,4 @@
-# 최근 20개에 3개 이상 있는지 고려
+# 최근 40개에 3개 이상 있는지 고려
 
 import sys
 sys.stdin = open('로또.txt', 'r')
@@ -18,4 +18,4 @@ def lotto(nums):
             break
     return res
 
-print(lotto([1, 17, 19, 20, 26, 34]))
+print(lotto([11, 14, 16, 19, 26, 38]))

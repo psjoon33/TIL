@@ -1,10 +1,10 @@
-# 최근 100개에 4개 이상 있는지 고려
+# 최근 200개에 4개 이상 있는지 고려
 
 import sys
 sys.stdin = open('로또.txt', 'r')
 
 result = []
-for i in range(150):
+for i in range(200):
     result.append(list(map(int, input().split('\t'))))
 
 def lotto(nums):
@@ -20,4 +20,4 @@ def lotto(nums):
             break
     return res
 
-print(lotto([1, 17, 19, 20, 26, 34]))
+print(lotto([11, 14, 16, 19, 26, 38]))

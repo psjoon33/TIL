@@ -18,4 +18,4 @@ def lotto(nums):
             break
     return res
 
-print(lotto([12, 14, 25, 27, 39, 40]))
+print(lotto([1, 17, 19, 20, 26, 34]))

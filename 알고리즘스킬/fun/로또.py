@@ -23,4 +23,4 @@ def lotto(nums):
             rate[cnt] += 1
     return rate
 
-print(lotto([1, 2, 5, 24, 26, 44]))
+print(lotto([12, 16, 17, 21, 30, 32]))

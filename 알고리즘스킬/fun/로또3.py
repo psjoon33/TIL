@@ -6,7 +6,6 @@ sys.stdin = open('로또.txt', 'r')
 result = []
 for i in range(200):
     result.append(list(map(int, input().split('\t'))))
-
 def lotto(nums):
     res = 'Yes'
     for x in result:
@@ -20,4 +19,4 @@ def lotto(nums):
             break
     return res
 
-print(lotto([8, 28, 30, 37, 41, 42]))
+print(lotto([10, 12, 18, 35, 42, 43]))

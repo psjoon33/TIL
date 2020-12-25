@@ -21,4 +21,4 @@ def lotto(nums):
         print(k)
     return res
 
-print(lotto([10, 12, 18, 35, 42, 43]))
+print(lotto([5, 8, 11, 12, 24, 30]))

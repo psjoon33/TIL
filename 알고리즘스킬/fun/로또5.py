@@ -20,4 +20,4 @@ def lotto(nums):
         print(res)
     return
 
-lotto([1, 8, 13, 36, 44, 45])
+lotto([1, 8, 10, 36, 44, 45])

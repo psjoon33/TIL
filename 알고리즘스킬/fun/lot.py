@@ -6,22 +6,21 @@ for i in range(942):
     a.append(list(map(int, input().split('\t'))))
 
 result = 0
-for i in range(10, 942):
+for i in range(932):
     x = a[i]
-    y = a[i-5:i]
-    print(y)
+    y = a[i+1:i+931]
     for z in y:
         cnt = 0
         for w in x:
             if w in z:
                 cnt += 1
-        if cnt >= 3:
-            # result += 1
+        if cnt >= 5:
+            result += 1
             print(i)
-            # print(x)
-            # print(z)
-            # print()
-            # break
+            print(x)
+            print(z)
+            print()
+            break
     
 print(result)
     

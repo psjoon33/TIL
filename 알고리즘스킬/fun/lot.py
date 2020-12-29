@@ -8,13 +8,13 @@ for i in range(942):
 result = 0
 for i in range(10, 942):
     x = a[i]
-    y = a[i-10:i]
+    y = a[i-5:i]
     for z in y:
         cnt = 0
         for w in x:
             if w in z:
                 cnt += 1
-        if cnt >= 2:
+        if cnt >= 3:
             result += 1
             print(x)
             print(z)

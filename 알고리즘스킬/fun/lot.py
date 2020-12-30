@@ -14,7 +14,7 @@ for i in range(932):
         for w in x:
             if w in z:
                 cnt += 1
-        if cnt >= 5:
+        if cnt >= 3:
             result += 1
             print(i)
             print(x)

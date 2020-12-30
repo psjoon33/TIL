@@ -1,6 +1,5 @@
 import sys
 sys.stdin = open('로또.txt', 'r')
-# 최근 10 번 중에 2개이상 같은 수가 겹치는 지를 확인
 a = []
 for i in range(942):
     a.append(list(map(int, input().split('\t'))))
@@ -21,7 +20,6 @@ for i in range(932):
             print(z)
             print()
             break
-    
 print(result)
 
 # 최근 있었던 25개를 봤을 때 최소 1번의 케이스에 한해서 2개 이상의 숫자가 겹친다.

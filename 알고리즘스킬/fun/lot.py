@@ -5,7 +5,7 @@ for i in range(942):
     a.append(list(map(int, input().split('\t'))))
 
 result = 0
-for i in range(932):
+for i in range(917):
     x = a[i]
     y = a[i+1:i+26]
     for z in y:

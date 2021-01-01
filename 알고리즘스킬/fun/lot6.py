@@ -6,23 +6,21 @@ for i in range(942):
 n = len(a)
 
 result = 0
-for i in range(n-120):
+
+for i in range(n-51):
     x = a[i]
-    y = a[i+1:i+121]
+    y = a[i+1:i+51]
     for z in y:
         cnt = 0
         for w in x:
             if w in z:
                 cnt += 1
-        if cnt > 2:
+        if cnt > 3:
             result += 1
-            # print(i)
-            break
+            print(i)
 print(result)
 
-# 120개를 보면 3개 이상 겹치는 경우가 무조건 있음
-
-
+# 50개를 봤을 때 4개 이상 겹치는 경우 없다.
 
 
 

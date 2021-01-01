@@ -6,10 +6,10 @@ for i in range(942):
 n = len(a)
 
 cnt = 0
-for i in range(n-25):
+for i in range(n-80):
     result = {}
     x = a[i]
-    y = a[i+1:i+101]
+    y = a[i+1:i+81]
     for z in y:
         inc = []
         for w in x:
@@ -27,4 +27,4 @@ for i in range(n-25):
             break
 print(cnt)
 
-# 최근있었던 100개를 봤을 때 2개가 겹치는 경우가 2개 이상일 확률 98퍼센트
+# 최근있었던 80개를 봤을 때 2개가 겹치는 경우가 2개 이상일 확률 98퍼센트

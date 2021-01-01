@@ -9,7 +9,7 @@ cnt = 0
 for i in range(n-25):
     result = {}
     x = a[i]
-    y = a[i+1:i+9]
+    y = a[i+1:i+101]
     for z in y:
         inc = []
         for w in x:
@@ -22,6 +22,9 @@ for i in range(n-25):
                 result[tuple(inc)] = 1
     for j in result:
         if result[j] > 1:
-            print(j)
+            # print(j)
             cnt += 1
+            break
 print(cnt)
+
+# 최근있었던 100개를 봤을 때 2개가 겹치는 경우가 2개 이상일 확률 98퍼센트

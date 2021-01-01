@@ -25,11 +25,3 @@ for i in range(n-25):
             print(j)
             cnt += 1
 print(cnt)
-
-# 최근있었던 8개에서 겹치는게 2개있는 확률은 3퍼센트.
-# 
-
-
-
-
-

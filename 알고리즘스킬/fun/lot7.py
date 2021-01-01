@@ -10,9 +10,13 @@ for i in range(n):
     x = a[i]
     y = a[:]
     for z in y:
-        if z == y:
+        if z == x:
             continue
         cnt = []
         for w in x:
             if w in z:
-                cnt.append()
+                cnt.append(w)
+        if len(cnt) > 3:
+            if tuple(cnt) in result:
+                
+

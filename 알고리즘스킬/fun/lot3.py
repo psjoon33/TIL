@@ -6,7 +6,7 @@ for i in range(942):
 n = len(a)
 
 cnt = 0
-for i in range(n-25):
+for i in range(n-8):
     result = {}
     x = a[i]
     y = a[i+1:i+9]

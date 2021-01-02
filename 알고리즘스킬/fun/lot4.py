@@ -7,7 +7,7 @@ n = len(a)
 
 cnt = 0
 for i in range(n-80):
-    result = {}
+    res = {}
     x = a[i]
     y = a[i+1:i+81]
     for z in y:
@@ -16,12 +16,12 @@ for i in range(n-80):
             if w in z:
                 inc.append(w)
         if len(inc) > 1:
-            if tuple(inc) in result:
-                result[tuple(inc)] += 1
+            if tuple(inc) in res:
+                res[tuple(inc)] += 1
             else:
-                result[tuple(inc)] = 1
-    for j in result:
-        if result[j] > 1:
+                res[tuple(inc)] = 1
+    for j in res:
+        if res[j] > 1:
             # print(j)
             cnt += 1
             break

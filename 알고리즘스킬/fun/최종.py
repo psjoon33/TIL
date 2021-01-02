@@ -9,7 +9,6 @@ for i in range(n):
 
 def check(x):
     # 25번 내에 겹치는 2개가 없다면 break
-    global n
     result = '25번 내에 2개가 겹치는 경우가 없다,,'
     y = a[0:26]
     for z in y:
@@ -20,8 +19,6 @@ def check(x):
         if cnt >= 2:
             result = 'Yes'
             break
-    if result == 'Yes':
-        break
     print(result)
     # 이전 회차와 3개 이상 겹치면 break
     result = '이전 회차와 3개 이상 겹친다.'
@@ -32,7 +29,6 @@ def check(x):
             cnt += 1
     if cnt < 3:
         result = 'Yes' 
-        break
     print(result)
     # 2개 겹치는 경우가 최근 8개에서 2번 있으면 break
     result = 'Yes'
@@ -83,8 +79,6 @@ def check(x):
         if cnt == 3:
             result = 'Yes'
             break
-    if result == 'Yes':
-        break
     print(result)
     # 50개를 봤을 때 4개 이상 겹치는 경우 없다.
     result = 'Yes'
@@ -116,7 +110,7 @@ def check(x):
                 res[tuple(cnt)] = 1
     count = 0
     for r in res:
-        if res[r] > 2
+        if res[r] > 2:
             result = '4개 이상 겹치는 경우가 2개 초과'
             break
     print(result)
@@ -133,7 +127,14 @@ def check(x):
     print(result)
 
 
-put = []
+# put = [5, 8, 11, 17, 24, 30]
+
+import random
+put = sorted(random.sample(range(1, 46), 6))
+print(a[1])
+print(a[0])
+print(put)
+check(put)
 
 
 

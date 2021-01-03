@@ -5,7 +5,7 @@ n = 944
 # n은 몇 회차인지
 for i in range(n):
     a.append(list(map(int, input().split('\t'))))
-
+a = a[1:]
 
 def check(x):
     # 25번 내에 겹치는 2개가 없다면 break
@@ -131,20 +131,11 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
+put = [2, 13, 16, 19, 32, 33]
 print(a[1])
 print(a[0])
 print(put)
 check(put)
-
-
-
-
-
-
-
-
-
-
 
 
 

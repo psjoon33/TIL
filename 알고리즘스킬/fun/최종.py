@@ -127,8 +127,6 @@ def check(x):
     print(result)
 
 
-# put = [5, 8, 11, 17, 24, 30]
-
 import random
 put = sorted(random.sample(range(1, 46), 6))
 put = []

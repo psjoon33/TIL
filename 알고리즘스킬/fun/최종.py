@@ -80,7 +80,7 @@ def check(x):
             result = 'Yes'
             break
     print(result)
-    # 50개를 봤을 때 4개 이상 겹치는 경우 없다.
+    # 50개를 봤을 때 4개 이상 겹치는 경우는 없다.
     result = 'Yes'
     y = a[:50]
     for z in y:

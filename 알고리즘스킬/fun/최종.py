@@ -114,7 +114,7 @@ def check(x):
             result = '4개 이상 겹치는 경우가 2개 초과'
             break
     print(result)
-    # 전체에서 5개 이상 겹치는 경우 없다.
+    # 전체에서 5개 이상 겹치는 경우가 없다.
     y = a
     result = 'Yes'
     for z in y:

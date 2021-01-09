@@ -129,7 +129,7 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-put = []
+# put = []
 print(a[1])
 print(a[0])
 print(put)

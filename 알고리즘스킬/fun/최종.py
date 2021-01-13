@@ -1,11 +1,12 @@
 import sys
 sys.stdin = open('로또.txt', 'r')
 a = []
-n = 944
+n = 945
 # n은 몇 회차인지
+
 for i in range(n):
     a.append(list(map(int, input().split('\t'))))
-a = a[1:]
+# a = a[1:]
 
 def check(x):
     # 25번 내에 겹치는 2개가 없다면 break
@@ -129,7 +130,8 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-put = [9, 10, 15, 30, 33, 37]
+# put = [9, 10, 15, 30, 33, 37]
+print(a[2])
 print(a[1])
 print(a[0])
 print(put)

@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('로또.txt', 'r')
 a = []
-n = 945
+n = 947
 # n은 몇 회차인지
 
 for i in range(n):
@@ -130,7 +130,8 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-# put = []
+# put = [3, 8, 17, 20, 27, 35]
+print(a[3])
 print(a[2])
 print(a[1])
 print(a[0])

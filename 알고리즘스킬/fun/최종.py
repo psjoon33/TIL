@@ -130,7 +130,7 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-# put = [3, 8, 17, 20, 27, 35]
+# put = [13, 18, 30, 31, 38, 41]
 print(a[3])
 print(a[2])
 print(a[1])

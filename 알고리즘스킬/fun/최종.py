@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('로또.txt', 'r')
 a = []
-n = 947
+n = 948
 # n은 몇 회차인지
 
 for i in range(n):

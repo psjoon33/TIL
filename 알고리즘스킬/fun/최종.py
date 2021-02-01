@@ -31,6 +31,7 @@ def check(x):
     if cnt < 3:
         result = 'Yes' 
     print(result)
+
     # 2개 겹치는 경우가 최근 8개에서 2번 있으면 break
     result = 'Yes'
     res = {}
@@ -131,6 +132,7 @@ def check(x):
 import random
 put = sorted(random.sample(range(1, 46), 6))
 # put = [13, 18, 30, 31, 38, 41]
+
 print(a[3])
 print(a[2])
 print(a[1])

@@ -16,6 +16,7 @@ npm install vue bootstrap-vue bootstrap
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 
+Vue.use(BootstrapVue)
 ```
 
 4. Bootstrap과 BootstrapVue의 css를 추가합니다.

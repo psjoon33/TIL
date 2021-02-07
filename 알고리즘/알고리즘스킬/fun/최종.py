@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('로또.txt', 'r')
+sys.stdin = open('l.txt', 'r')
 a = []
 n = 949
 # n은 몇 회차인지

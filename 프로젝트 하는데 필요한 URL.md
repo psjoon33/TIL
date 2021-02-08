@@ -21,3 +21,33 @@
 4. 뷰 공식문서 가이드
 
    https://kr.vuejs.org/v2/guide/#%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%9E%85%EB%A0%A5-%ED%95%B8%EB%93%A4%EB%A7%81
+
+
+
+5. 뷰티파이 색깔
+
+   https://vuetifyjs.com/en/styles/colors/#material-colors
+
+
+
+6. 뷰티파이 공식 문서
+
+   https://vuetifyjs.com/en/components/navigation-drawers/#bottom-drawer
+
+
+
+7. 뷰티파이 공식 문서 한글
+
+   https://v2.vuetifyjs.com/ko/introduction/why-vuetify/
+
+
+
+8. 뷰티파이 공식 문서 - 레이아웃
+
+   https://v2.vuetifyjs.com/ko/getting-started/pre-made-layouts/
+
+
+
+9. 뷰-라우터 공식문서
+
+   https://router.vuejs.org/kr/guide/#html

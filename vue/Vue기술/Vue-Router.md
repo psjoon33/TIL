@@ -34,7 +34,7 @@ const routes = [
 ]
 
 # 이 구성된 routes를 가지고 main.js로 가서 세팅을 해야 한다.
-export default new VueRouter){
+export default new VueRouter(){
     routes
     # 위에서 만든 routes라는 배열을 export 
 }

@@ -39,6 +39,10 @@
 7. 뷰티파이 공식 문서 한글
 
    https://v2.vuetifyjs.com/ko/introduction/why-vuetify/
+   
+   간단버전
+   
+   https://v15.vuetifyjs.com/ko/getting-started/quick-start
 
 
 

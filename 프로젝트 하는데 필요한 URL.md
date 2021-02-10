@@ -61,3 +61,9 @@
 10. 나중에 음식들 칼로리데이터 보여줄 때 이용하면 좋은 문서
 
     https://vuetifyjs.com/en/components/data-tables/#custom-filter
+
+
+
+11. 나중에 데이터 관리할 때 참고할 url
+
+    https://ej2.syncfusion.com/vue/demos/?_ga=2.34594849.1204416020.1612856850-671197559.1611830480sparkline/series-types/#/material/grid/grid-overview.html

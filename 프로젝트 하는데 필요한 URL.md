@@ -55,3 +55,9 @@
 9. 뷰-라우터 공식문서
 
    https://router.vuejs.org/kr/guide/#html
+
+
+
+10. 나중에 음식들 칼로리데이터 보여줄 때 이용하면 좋은 문서
+
+    https://vuetifyjs.com/en/components/data-tables/#custom-filter

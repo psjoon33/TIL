@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('l.txt', 'r')
 a = []
-n = 949
+n = 950
 # n은 몇 회차인지
 
 for i in range(n):
@@ -131,7 +131,7 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-# put = [14, 21, 35, 36, 40, 44]
+# put = [3, 4, 15, 22, 28, 40]
 
 print(a[3])
 print(a[2])

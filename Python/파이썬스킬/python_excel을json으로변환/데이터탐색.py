@@ -7,7 +7,7 @@ with open('baseInfo.json', encoding='utf-8') as json_file:
     for i in range(len(json_data)):
         if '가공치즈' == json_data[i]['분류']:
             if '체다' in json_data[i]['식품명']:
-                idx += [i] + idx
+                idx = [i] + idx
                 print(i, end=' ')
                 print(json_data[i]['식품명'])
             

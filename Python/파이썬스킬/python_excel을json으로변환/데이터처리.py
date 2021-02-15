@@ -2,8 +2,11 @@ import json
 
 with open('baseInfo.json', encoding='utf-8') as json_file:
     json_data = json.load(json_file)
+    # json_data[202]['식품명'] = '스트링치즈'
+
     idx = [
-        ]
+    262, 259, 258, 256, 255, 254, 251, 250
+    ]   
     for i in idx:
         json_data.pop(i)
 

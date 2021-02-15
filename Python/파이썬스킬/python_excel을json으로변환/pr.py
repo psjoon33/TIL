@@ -1,4 +1,6 @@
-a = 'abcde fg'
+import sys
+sys.stdin = open('input.txt', 'r', encoding='utf-8')
 
-if 'ef' in a:
-    print(1)
+a = list(map(str, input().split(', ')))
+
+print(a)

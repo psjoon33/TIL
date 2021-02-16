@@ -7,16 +7,16 @@ with open('baseInfo.json', encoding='utf-8') as json_file:
     arr = []
     idx = []
     for i in range(len(json_data)):
-        if '과/채음료' in json_data[i]['분류']:
-            if '딸기' in json_data[i]['식품명']:
-                arr.append(json_data[i])
-                idx.append(i)
+        if '양조간장' == json_data[i]['분류']:
+            # if '' in json_data[i]['식품명']:
+            arr.append(json_data[i])
+            idx.append(i)
     cnt = len(arr)
 
-    represent['식품명'] = '딸기주스'
-    represent['분류'] = '과/채음료'
+    represent['식품명'] = '양조간장'
+    represent['분류'] = '양조간장'
     # 위에 내가 설정
-    represent['1회제공량'] = '200'
+    represent['1회제공량'] = '10'
     represent['단위'] = 'ml'
     # 여기 위에도 내가 설정
 

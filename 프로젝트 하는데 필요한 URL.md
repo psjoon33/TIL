@@ -67,3 +67,13 @@
 11. 나중에 데이터 관리할 때 참고할 url
 
     https://ej2.syncfusion.com/vue/demos/?_ga=2.34594849.1204416020.1612856850-671197559.1611830480sparkline/series-types/#/material/grid/grid-overview.html
+
+
+
+12. CSS 위치 잡기
+
+    http://jun.hansung.ac.kr/CWP/css/CSS%20Positioning.html
+
+
+
+13. 

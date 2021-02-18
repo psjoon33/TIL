@@ -76,4 +76,22 @@
 
 
 
-13. 
+13. 구글폰트 사용하는 법
+
+    https://amaze9001.tistory.com/95
+
+    여기서 마지막에 @import 어쩌구 저쩌구 부분을 가지고 와서, vue의 style 태그 안에 입력해주면, 바로 사용이 가능하다!
+    
+    
+
+14. 랜덤으로 움직이는 조각 애니메이션
+
+    https://wsss.tistory.com/103
+
+
+
+15. 시간차 트랜지션 효과를 넣기
+
+    https://rintiantta.github.io/jpub-vue/examples/delay-transition.html#%EB%8F%99%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
+    

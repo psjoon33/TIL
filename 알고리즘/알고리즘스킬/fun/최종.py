@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('l.txt', 'r')
 a = []
-n = 951
+n = 953
 # n은 몇 회차인지
 
 for i in range(n):

@@ -1,2 +1,0 @@
-# cols, sm, md
-

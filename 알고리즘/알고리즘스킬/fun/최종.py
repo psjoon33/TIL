@@ -110,7 +110,7 @@ def check(x):
                 res[tuple(cnt)] += 1
             else:
                 res[tuple(cnt)] = 1
-    count = 0
+    # count = 0
     for r in res:
         if res[r] > 2:
             result = '4개 이상 겹치는 경우가 2개 초과'
@@ -133,6 +133,7 @@ import random
 put = sorted(random.sample(range(1, 46), 6))
 # put = [2, 12, 30, 31, 39, 43]
 
+
 print(a[3])
 print(a[2])
 print(a[1])
@@ -140,5 +141,8 @@ print(a[0])
 print(put)
 check(put)
 
-
+x = [22, 43]
+for i in x:
+    if i in put:
+        print('금지숫자포함')
 

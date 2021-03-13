@@ -141,7 +141,7 @@ print(a[0])
 print(put)
 check(put)
 
-x = [22, 43]
+x = []
 for i in x:
     if i in put:
         print('금지숫자포함')

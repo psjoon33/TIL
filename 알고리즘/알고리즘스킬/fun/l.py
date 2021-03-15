@@ -1,22 +1,20 @@
 import sys
-sys.stdin = open('로또.txt', 'r')
+sys.stdin = open('l.txt', 'r')
 a = []
-for i in range(942):
-    a.append(list(map(int, input().split('\t'))))
+for i in range(953):
+    # a.append(list(map(int, input().split('\t'))))
+    a = [list(map(int, input().split('\t')))] + a
+
 result = 0
-for i in range(942):
+for i in range(800, 953):
     x = a[i]
-    y = a[i+1:i+2]
+    y = a[i-800:i]
     for z in y:
         cnt = 0
         for w in x:
             if w in z:
                 cnt += 1
-        if cnt >= 2:
+        if cnt >= 4:
             result += 1
-            print(i)
-            print(x)
-            print(z)
-            print()
             break
 print(result)

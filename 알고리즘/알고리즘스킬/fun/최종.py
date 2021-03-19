@@ -131,7 +131,7 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-put = [1, 9, 26, 28, 30, 41]
+# put = [1, 9, 26, 28, 30, 41]
 
 
 print(a[3])
@@ -141,7 +141,7 @@ print(a[0])
 print(put)
 check(put)
 
-x = []
+x = [9]
 for i in x:
     if i in put:
         print('금지숫자포함')

@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('l.txt', 'r')
 a = []
-n = 956
+n = 957
 # n은 몇 회차인지
 
 for i in range(n):
@@ -141,7 +141,7 @@ print(a[0])
 print(put)
 check(put)
 
-x = [9, 26, 41]
+x = []
 for i in x:
     if i in put:
         print('금지숫자포함')

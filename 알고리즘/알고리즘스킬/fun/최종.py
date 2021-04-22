@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('l.txt', 'r')
 a = []
-n = 957
+n = 959
 # n은 몇 회차인지
 
 for i in range(n):
@@ -131,13 +131,30 @@ def check(x):
 
 import random
 put = sorted(random.sample(range(1, 46), 6))
-# put = [1, 9, 26, 28, 30, 41]
+# put = [1, 14, 15, 24, 40, 41]
 
 
-print(a[3])
-print(a[2])
-print(a[1])
-print(a[0])
+print(a[3], end='   ')
+for p in put:
+    if p in a[3]:
+        print(p, end=' ')
+print()
+print(a[2], end='   ')
+for p in put:
+    if p in a[2]:
+        print(p, end=' ')
+print()        
+print(a[1], end='   ')
+for p in put:
+    if p in a[1]:
+        print(p, end=' ')
+print()
+print(a[0], end='   ')
+for p in put:
+    if p in a[0]:
+        print(p, end=' ')
+print()
+
 print(put)
 check(put)
 
